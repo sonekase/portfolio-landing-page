@@ -17,28 +17,28 @@ bootstrap.css
 
 .content {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   max-width: 100%
 }
 
 .inside-content {
   font-family: skia;
   text-shadow: 6px, 6px;
-  text-align: center;
   color: gray;
-  font-size: 45px;
+  font-size: 65px;
   font-weight: bolder;
+  padding: 20px;
 }
 
 .color {
   color: yellow;
-  font-size: 72px;
+  font-size: 82px;
   font-weight: bold;
 }
 
 .btn {
   font-family: skia;
-  font-size: 40px;
+  font-size: 55px;
   font-weight: bolder;
   color: green;
   text-transform: uppercase;
@@ -51,8 +51,8 @@ bootstrap.css
   text-align: center;
 }
 
-.gray {
-  color: gray;
+.white {
+  color: #FFF;
 }
 
 .btn:hover {
@@ -86,14 +86,17 @@ bootstrap.css
 
 .program {
   font-style: italic;
-  font-size: 15px
 }
 
 .well {
-  font-size: 20px;
+  font-size: 22px;
   font-family: skia;
   text-align: center;
   list-style: none;
+}
+
+.well p {
+  font-size: 20px;
 }
 
 .well li {
@@ -121,6 +124,7 @@ a {
 #camera {
   text-align: center;
   font-family: skia;
+  color: black;
 }
 
 img {
@@ -128,7 +132,7 @@ img {
   height: 200px;
   display: table-cell;
   vertical-align: middle;
-  border: black;
+  border: gray;
   border-style: solid;
   border-width: 3px;
 }
