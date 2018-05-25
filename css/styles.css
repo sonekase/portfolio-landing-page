@@ -32,7 +32,8 @@ bootstrap.css
 
 .color {
   color: yellow;
-  font-size: 65px;
+  font-size: 72px;
+  font-weight: bold;
 }
 
 .btn {
@@ -104,6 +105,34 @@ a {
   color: black;
 }
 
+.skills {
+  text-overflow: ellipsis;
+  color: black;
+}
+
+.skills:hover {
+  color: white;
+}
+
+.col-md-4- {
+  font-family: skia;
+}
+
+#camera {
+  text-align: center;
+  font-family: skia;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  border: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
 .icons {
 text-align: center;
 font-size: 300%;
@@ -116,7 +145,12 @@ color: black;
 }
 a:hover {
 color: gray;
+}
 
+#end {
+  font-size: 15px;
+  color: gray;
+}
 
 
 @@media screen and (max-width: 768px) {
