@@ -1,0 +1,135 @@
+body, margin {
+  margin: 0;
+  padding: 0;
+bootstrap.css
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url('../img/sonny.jpg') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  height: 100vh;
+  background-size: cover;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 100%
+}
+
+.inside-content {
+  font-family: skia;
+  text-shadow: 6px, 6px;
+  text-align: center;
+  color: gray;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.color {
+  color: yellow;
+  font-size: 65px;
+}
+
+.btn {
+  font-family: skia;
+  font-size: 40px;
+  font-weight: bolder;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: solid;
+  border-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 40px, 40px;
+  text-align: center;
+}
+
+.gray {
+  color: gray;
+}
+
+.btn:hover {
+  color: red;
+}
+
+.projects {
+  margin: 12px;
+  font-family: skia;
+  float: left;
+  font-size: 20px;
+}
+
+.big {
+  font-size: 55px;
+}
+
+.projects .list {
+  list-style: none;
+}
+
+.projects li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.projects li a:hover {
+  color: green;
+}
+
+.program {
+  font-style: italic;
+  font-size: 15px
+}
+
+.well {
+  font-size: 20px;
+  font-family: skia;
+  text-align: center;
+  list-style: none;
+}
+
+.well li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+text-align: center;
+font-size: 300%;
+color: black;
+padding: 3em;
+box-sizing:border-box;
+}
+.icons a {
+color: black;
+}
+a:hover {
+color: gray;
+
+
+
+@@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+
+  .btn {
+    font-size: 110%;
+    padding: 7px 15px;
+  }
+
+  p {
+    font-size: 100%;
+    line-height: 160%;
+  }
